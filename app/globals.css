@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-gray-200;
+  }
+  
+  body {
+    @apply bg-gradient-to-br from-indigo-900 via-purple-800 to-pink-600 text-white min-h-screen;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white bg-opacity-10 backdrop-blur-lg border border-white border-opacity-20 rounded-lg shadow-card;
+  }
+  
+  .btn-primary {
+    @apply bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-3 rounded-lg font-medium hover:from-purple-600 hover:to-pink-600 transition-all duration-200 shadow-lg hover:shadow-xl;
+  }
+  
+  .btn-secondary {
+    @apply bg-white bg-opacity-20 text-white px-4 py-2 rounded-lg font-medium hover:bg-opacity-30 transition-all duration-200 backdrop-blur-sm;
+  }
+  
+  .metric-card {
+    @apply glass-card p-4 hover:bg-opacity-15 transition-all duration-200;
+  }
+  
+  .dashboard-card {
+    @apply glass-card p-6 hover:bg-opacity-15 transition-all duration-200;
+  }
+}
