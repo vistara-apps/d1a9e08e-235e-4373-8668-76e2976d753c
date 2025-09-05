@@ -10,14 +10,14 @@
     "subtitle": "Built with Zara",
     "description": "RightsGuardian is a Base Mini App built with Zara.",
     "iconUrl": "https://0co.to/images/zara-2.png",
-    "homeUrl": "https://d1a9e08e-235e-4373-8668-76e2976d753c.vercel.app",
-    "splashImageUrl": "https://dummyimage.com/200x200/0a0b0d/ffffff.png&text=Splash",
+    "homeUrl": "https://d1a9e08e235e4373866876e2976d753c-y785.vercel.app",
+    "splashImageUrl": "https://d1a9e08e235e4373866876e2976d753c-y785.vercel.app/splash.png",
     "splashBackgroundColor": "#000000",
-    "heroImageUrl": "https://dummyimage.com/1200x628/0a0b0d/ffffff.png&text=Hero",
+    "heroImageUrl": "https://d1a9e08e235e4373866876e2976d753c-y785.vercel.app/image.png",
     "tagline": "RightsGuardian",
     "screenshotUrls": [
-      "https://dummyimage.com/1200x628/0a0b0d/ffffff.png&text=Shot1",
-      "https://dummyimage.com/1200x628/0a0b0d/ffffff.png&text=Shot2"
+      "https://d1a9e08e235e4373866876e2976d753c-y785.vercel.app/screenshot.png",
+      "https://d1a9e08e235e4373866876e2976d753c-y785.vercel.app/screenshot.png"
     ],
     "primaryCategory": "social",
     "tags": [
@@ -25,6 +25,6 @@
       "miniapp",
       "onchainkit"
     ],
-    "webhookUrl": "https://d1a9e08e-235e-4373-8668-76e2976d753c.vercel.app/api/webhook"
+    "webhookUrl": "https://d1a9e08e235e4373866876e2976d753c-y785.vercel.app/api/webhook"
   }
 }
